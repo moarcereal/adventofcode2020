@@ -17,6 +17,10 @@ tree = f
 
 oxygen = ''
 for w in range(width):
+    if len(tree) <= 1:
+        oxygen += tree[0][w:]
+        break
+    
     ones = []
     zeros = []
     for line in tree:
