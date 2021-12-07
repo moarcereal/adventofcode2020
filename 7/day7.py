@@ -38,14 +38,3 @@ for pos in range(minPosition, maxPosition+1):
 # print(min(results), results) 
 
 print('best', min(results))
-
-# for i in range(256):
-#     for d in range(-1,8):
-#         school[d] = school[d+1]
-
-#     school[6] += school[-1]
-#     school[8] = school[-1]
-#     # print(i, school)
-
-# tally = sum([school[x] for x in range(9)])
-# print(tally)
